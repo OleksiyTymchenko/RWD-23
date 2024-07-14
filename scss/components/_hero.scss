@@ -1,0 +1,22 @@
+.hero {
+    background: url("./../img/hero/hero-bg.png") center / 100% 100% no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hero .container{
+    padding: 100px 0 380px;
+}
+
+@media (min-width: 320px) and (max-width: 1000px) {
+    .hero .container{
+        padding: 100px 34px 380px;
+    }
+  }
+
+@media screen and (max-width: 320px) {
+    .hero h1{
+      max-width: 3rem;
+    }
+  }

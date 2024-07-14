@@ -1,0 +1,74 @@
+.header{
+    padding: 44px 20px;
+    text-transform: uppercase;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list .list__item{
+    margin-right: 42px;
+}
+
+.list li a:after {
+    content: ''; /* Додати пробіл, щоб зайняти місце */
+    display: block; /* Зробити блочним елементом */
+    width: 40px; /* Ширина, що дорівнює ширині контейнера */
+    height: 2px; /* Висота лінії */
+    background-color: #fff; /* Синій колір */
+    margin-top: 5px; /* Відступ зверху */
+    margin: 5px auto 0;
+  }
+
+.list li:hover a:after {
+    content: ''; /* Додати пробіл, щоб зайняти місце */
+    display: block; /* Зробити блочним елементом */
+    width: 40px; /* Ширина, що дорівнює ширині контейнера */
+    height: 2px; /* Висота лінії */
+    background-color: #000; /* Синій колір */
+    margin-top: 5px; /* Відступ зверху */
+    margin: 5px auto 0;
+  }
+
+.list .li:last-child{
+    margin-right: 0;
+}
+
+.logo svg{
+    width: 142px;
+    height: 12px;
+}
+
+.search{
+    width: 17px;
+    height: 16px;
+}
+
+@media (min-width: 320px) and (max-width: 1000px) {
+    .header{
+        padding: 23.5px 34px;
+        text-transform: uppercase;
+    }
+    
+    .buttons a{
+      margin-right: 74px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .buttons a{
+      margin-right: 50px;
+    }
+  }

@@ -1,0 +1,71 @@
+
+
+.popular .post-list__image{
+    background: url("./../img/popular/oval.png") center / 100% 100% no-repeat;
+    background-size: cover; 
+    width: 570px;
+    height: 260px;
+}
+
+.popular .popular-image{
+    background: url("./../img/popular/play.png") center / 100% 100% no-repeat;
+    background-size: cover;
+    width: 570px;
+    height: 260px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 320px) and (max-width: 1130px) {
+    .popular .post-list__item:nth-child(2),
+    .popular .post-list__item{
+        flex-direction: column;
+        width: 340px;
+    }
+    .popular .post-list__image{
+        width: 340px;
+        height: 160px;
+    }
+    
+    .popular .popular-image{
+        width: 340px;
+        height: 160px;
+    }
+    
+  }
+
+.popular .post-list__item{
+    width: 570px;
+}
+
+.popular h3{
+    font-size: 2.4rem;
+    
+}
+
+.button{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.advertisement{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advertisement h3{
+    margin: 0;
+    font-size: 23px;
+    width: 470px;
+    margin-bottom: 70px;
+}
+
+.advertisement p{
+    color: #565656;
+    width: 470px;
+}
+
+.advertisement p:first-child{
+    margin-bottom: 40px;
+}
